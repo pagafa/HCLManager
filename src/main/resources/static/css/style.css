@@ -1,0 +1,150 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: arial;
+	font-size: 16px;
+}
+
+header {
+	background-color: #00f;
+	padding: 5px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.tabs, .actions {
+	background-color: #ccf;
+	height: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.tabs {
+	padding-top: 4px;
+}
+
+.actions {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+}
+
+.list {
+	position: fixed;
+	bottom: 34px;
+	top: 55px;
+	left: 0;
+	right: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border: 1px solid #ccc;
+}
+
+.tab {
+	float: left;
+	border: 1px solid #88a;
+	cursor: pointer;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.tab img {
+	margin-bottom: -2px;
+}
+
+.tab.selected {
+	background-color: #88a;
+}
+
+.action {
+	float: right;
+	border: 1px solid #88a;
+	background-color: #00c;
+	cursor: pointer;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.action img {
+	margin-bottom: -2px;
+}
+
+.float {
+	display: none;
+	width: 400px;
+	position: fixed;
+	top: 50%;
+	margin-top: -50px;
+	left: 50%;
+	margin-left: -200px;
+	background-color: #ccc;
+	border: 1px solid #aaa;
+	padding: 10px;
+}
+
+.float .title {
+	text-align: center;
+	font-weight: bolder;
+	padding-bottom: 5px;
+}
+
+.float label {
+	width: 91px;
+	display: inline-block;
+}
+
+.float input {
+	width: 300px;
+}
+
+.float .action {
+	margin-top: 10px;
+}
+
+.element {
+	border: 1px solid #aae;
+	height: 20px;
+	color: #000;
+}
+
+.element div {
+	float: left;
+	line-height: 20px;
+	margin-left: 5px;
+}
+
+.element .edit {
+	width: 20px;
+	height: 20px;
+	background: url("../images/edit.png") no-repeat center;
+}
+
+.element .remove {
+	width: 20px;
+	height: 20px;
+	background: url("../images/remove.png") no-repeat center;
+}
+
+.element .name {
+	width: 200px;
+}
+
+.element .url {
+	width: 200px;
+}
+
+.element .lat {
+	width: 100px;
+}
+
+.element .lon {
+	width: 100px;
+}

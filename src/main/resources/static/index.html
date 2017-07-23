@@ -1,0 +1,71 @@
+<html>
+<head>
+<link href='css/style.css' rel='stylesheet' type="text/css" />
+<title>Manager</title>
+</head>
+<body>
+	<header>Actions Manager</header>
+	<div class="tabs">
+		<div class="tab" id="tabUrls">
+			<img src="images/link.png" /> URLs
+		</div>
+		<div class="tab" id="tabLocations">
+			<img src="images/location.png" /> Locations
+		</div>
+	</div>
+	<div class="list"></div>
+	<div class="actions">
+		<div class="action" id="addButton">
+			<img src="images/plus.png" /> Add
+		</div>
+	</div>
+	<div class="float" id="urlFloat">
+		<div class="title">URL</div>
+		<input type="hidden" id="urlId" />
+		<div>
+			<label for="urlName">Name:</label>
+			<input type="text" id="urlName" />
+		</div>
+		<div>
+			<label for="urlUrl">URL:</label>
+			<input type="text" id="urlUrl" />
+		</div>
+		<div class="action" id="urlSaveButton">
+			<img src="images/save.png" /> Save
+		</div>
+		<div class="action" id="urlRemoveButton">
+			<img src="images/remove.png" /> Remove
+		</div>
+		<div class="action cancelButton">
+			<img src="images/cancel.png" /> Cancel
+		</div>
+	</div>
+	<div class="float" id="locationFloat">
+		<div class="title">Location</div>
+		<input type="hidden" id="locationId" />
+		<div>
+			<label for="urlName">Name:</label>
+			<input type="text" id="locationName" />
+		</div>
+		<div>
+			<label for="urlUrl">Latitude:</label>
+			<input type="text" id="locationLat" />
+		</div>
+		<div>
+			<label for="urlUrl">Longitude:</label>
+			<input type="text" id="locationLon" />
+		</div>
+		<div class="action" id="locationSaveButton">
+			<img src="images/save.png" /> Save
+		</div>
+		<div class="action" id="locationRemoveButton">
+			<img src="images/remove.png" /> Remove
+		</div>
+		<div class="action cancelButton">
+			<img src="images/cancel.png" /> Cancel
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
